@@ -32,16 +32,6 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-  .introduction h1 {
-    font-size: 3rem;
-  }
-
-  .introduction p {
-    font-size: 1.125rem;
-  }
-}
-
 @media (max-width: 800px) {
   .introduction-bg {
     background: var(--color-11);
@@ -57,7 +47,6 @@
     padding-bottom: 0;
   }
   .introduction h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
 
