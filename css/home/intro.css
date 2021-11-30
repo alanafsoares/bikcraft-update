@@ -1,56 +1,52 @@
-.introduction-bg {
+.intro-bg {
   background-color: var(--color-12);
   box-shadow: inset 0 -120px var(--color-0);
 }
 
-.introduction {
+.intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.introduction-content {
+.intro-content {
   align-self: end;
   padding-bottom: 200px;
 }
 
-.introduction img {
+.intro img {
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.introduction h1 {
+.intro h1 {
   margin-bottom: 32px;
 }
 
-.introduction p {
+.intro p {
   margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
-  .introduction-bg {
+  .intro-bg {
     background: var(--color-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px var(--color-0);
   }
-  .introduction {
+  .intro {
     grid-template-columns: 1fr;
     gap: 32px;
   }
 
-  .introduction-content {
+  .intro-content {
     padding-bottom: 0;
   }
-  .introduction h1 {
+  .intro h1 {
     margin-bottom: 16px;
   }
 
-  .introduction img {
+  .intro img {
     height: 300px;
     width: 100%;
   }
