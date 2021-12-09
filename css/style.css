@@ -16,6 +16,10 @@
 
 /* Bicicletas */
 @import './bikes/bikes-list.css';
+@import './bikes/bikes.css';
 
 /* Seguros */
 @import './insurance/insurance.css';
+
+/* Termos */
+@import './terms/terms.css';
