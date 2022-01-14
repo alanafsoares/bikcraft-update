@@ -14,6 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
   </head>
   <body id="bike">
     <header class="header-bg">
@@ -41,9 +44,9 @@
       </div>
       <div class="bike container">
         <div class="bike-images">
-          <img src="../img/bike/nimbus1.jpg" alt="" />
-          <img src="../img/bike/nimbus2.jpg" alt="" />
-          <img src="../img/bike/nimbus3.jpg" alt="" />
+          <img src="../img/bike/nimbus1.jpg" alt="Bicicleta preta 1" />
+          <img src="../img/bike/nimbus2.jpg" alt="Bicicleta preta 2" />
+          <img src="../img/bike/nimbus3.jpg" alt="Bibicleta branca" />
         </div>
         <div class="bike-content">
           <p class="font-2-l color-5">
@@ -52,7 +55,9 @@
             velocidade.
           </p>
           <div class="bike-buy">
-            <a class="btn" href="../budget.html">Comprar agora</a>
+            <a class="btn" href="../budget.html?type=bikcraft&product=nimbus"
+              >Comprar agora</a
+            >
             <span class="font-1-xs color-6">
               <img src="../img/icons/entrega.svg" alt="" /> entrega em 5
               dias</span
@@ -191,5 +196,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>
