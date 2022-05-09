@@ -1,8 +1,5 @@
-# Bikcraft-update 🚲
-
-# About
-
-study project (website) for css and html beginners at @ORIGAMID
+# Bikcraft-update 
+Projeto de estudo da plataforma da @ORIGAMID
 
 ## Layout mobile
 ![bikcraft-mobile](https://user-images.githubusercontent.com/68574175/150797035-1c38a439-8d56-4d21-ab11-11bb8a070dab.png)
@@ -15,8 +12,3 @@ https://alanafsoares.github.io/bikcraft-update/
 
 # Tech
 - HTML / CSS / JS 
-
-# Autor 
-Alana Soares
-<p>
-<a href="https://www.linkedin.com/in/alanafsoares/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a></p>
